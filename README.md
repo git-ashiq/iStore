@@ -1,7 +1,7 @@
 # Django E-commerce Website.
 
 ## How To Setup On Linux
-1. Clone This Project `git clone https://github.com/sajib1066/django-ecommerce.git`
+1. Ready to Deploy the iStore
 2. Go to Project Directory `cd django-ecommerce`
 3. Create a Virtual Environment `python -m venv venv`
 4. Activate Virtual Environment `source venv/bin/activate`
