@@ -2,12 +2,12 @@
 {% load static %}
 
 {% block content %}
-    <div class="hero-wrap hero-bread" style="background-image: url({% static 'images/bg_1.jpg' %});">
+    <div class="hero-wrap hero-bread" style="background-image: url({% static 'images/banner_bg.jpg' %});">
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-          	<p class="breadcrumbs"><span class="mr-2"><a href="{% url 'home' %}">Home</a></span> <span>Cart</span></p>
-            <h1 class="mb-0 bread">My Cart</h1>
+          <!--	<p class="breadcrumbs"><span class="mr-2"><a href="{% url 'home' %}">Home</a></span> <span>Cart</span></p>
+            <h1 class="mb-0 bread">My Cart</h1>-->
           </div>
         </div>
       </div>
@@ -33,14 +33,14 @@
 						      <tr class="text-center">
 						        <td class="product-remove"><a href="#"><span class="ion-ios-close"></span></a></td>
 
-						        <td class="image-prod"><div class="img" style="background-image:url({% static 'images/product-3.jpg' %});"></div></td>
+						        <td class="image-prod"><div class="img" style="background-image:url({% static 'images/apple-1.png' %});"></div></td>
 
 						        <td class="product-name">
-						        	<h3>Bell Pepper</h3>
-						        	<p>Far far away, behind the word mountains, far from the countries</p>
+						        	<h3>IPHONE 12</h3>
+						        	<p>Get $25 - $515 off when you trade in an iPhone SE (1st generation) or newer.*</p>
 						        </td>
 
-						        <td class="price">$4.90</td>
+						        <td class="price">$799</td>
 
 						        <td class="quantity">
 						        	<div class="input-group mb-3">
@@ -48,20 +48,20 @@
 					          	</div>
 					          </td>
 
-						        <td class="total">$4.90</td>
+						        <td class="total">$799</td>
 						      </tr><!-- END TR-->
 
 						      <tr class="text-center">
 						        <td class="product-remove"><a href="#"><span class="ion-ios-close"></span></a></td>
 
-						        <td class="image-prod"><div class="img" style="background-image:url({% static 'images/product-4.jpg' %});"></div></td>
+						        <td class="image-prod"><div class="img" style="background-image:url({% static 'images/iphone-x.jpg' %});"></div></td>
 
 						        <td class="product-name">
-						        	<h3>Bell Pepper</h3>
-						        	<p>Far far away, behind the word mountains, far from the countries</p>
+						        	<h3>iPhone X</h3>
+						        	<p>Get up to $80 off with Apple trade-inFootnote*</p>
 						        </td>
 
-						        <td class="price">$15.70</td>
+						        <td class="price">$549</td>
 
 						        <td class="quantity">
 						        	<div class="input-group mb-3">
@@ -69,13 +69,15 @@
 					          	</div>
 					          </td>
 
-						        <td class="total">$15.70</td>
+						        <td class="total">$549</td>
 						      </tr><!-- END TR-->
 						    </tbody>
 						  </table>
 					  </div>
     			</div>
     		</div>
+
+			<!--
     		<div class="row justify-content-end">
     			<div class="col-lg-4 mt-5 cart-wrap ftco-animate">
     				<div class="cart-total mb-3">
@@ -90,6 +92,7 @@
     				</div>
     				<p><a href="checkout.html" class="btn btn-primary py-3 px-4">Apply Coupon</a></p>
     			</div>
+
     			<div class="col-lg-4 mt-5 cart-wrap ftco-animate">
     				<div class="cart-total mb-3">
     					<h3>Estimate shipping and tax</h3>
@@ -110,26 +113,28 @@
 	            </form>
     				</div>
     				<p><a href="checkout.html" class="btn btn-primary py-3 px-4">Estimate</a></p>
-    			</div>
+    			</div>-->
+
+
     			<div class="col-lg-4 mt-5 cart-wrap ftco-animate">
     				<div class="cart-total mb-3">
     					<h3>Cart Totals</h3>
     					<p class="d-flex">
     						<span>Subtotal</span>
-    						<span>$20.60</span>
+    						<span>$799</span>
     					</p>
     					<p class="d-flex">
     						<span>Delivery</span>
-    						<span>$0.00</span>
+    						<span>$549</span>
     					</p>
     					<p class="d-flex">
     						<span>Discount</span>
-    						<span>$3.00</span>
+    						<span>$0.00</span>
     					</p>
     					<hr>
     					<p class="d-flex total-price">
     						<span>Total</span>
-    						<span>$17.60</span>
+    						<span>$1348</span>
     					</p>
     				</div>
     				<p><a href="{% url 'checkout' %}" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
