@@ -2,7 +2,7 @@
 
 ## How To Setup On Linux
 1. Ready to Deploy the iStore
-2. Go to Project Directory `cd django-ecommerce`
+2. Go to Project Directory `cd istore`
 3. Create a Virtual Environment `python -m venv venv`
 4. Activate Virtual Environment `source venv/bin/activate`
 5. Install Requirements Package `pip install -r requirements.txt`
