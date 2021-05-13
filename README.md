@@ -4,7 +4,7 @@
 1. Ready to Deploy the iStore
 2. Go to Project Directory `cd istore`
 3. Create a Virtual Environment `python -m venv venv`
-4. Activate Virtual Environment `source venv/bin/activate`
+4. Activate Virtual Environment `venv/Scripts/activate`
 5. Install Requirements Package `pip install -r requirements.txt`
 6. Migrate Database `python manage.py migrate`
 7. Create Super User `python manage.py createsuperuser`
